@@ -1,134 +1,60 @@
-# Career-Compass-AI
-#AI-powered career and placement assistant for students, built with Botpress.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Compass AI - Home</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+Career Compass AI 🤖
 
-        body {
-            background-color: #f8fafc;
-            color: #1e293b;
-            line-height: 1.6;
-        }
+AI-powered career and placement assistant for students, built with **Botpress**.
 
-        /* Navigation Header */
-        header {
-            background-color: #ffffff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            padding: 1rem 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+📌 About the Project
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #2563eb;
-        }
+Career Compass AI is a student-focused AI assistant designed to provide career and placement support through an interactive chatbot.
 
-        nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color: #64748b;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
+It helps students with:
 
-        nav a:hover {
-            color: #2563eb;
-        }
+* 🎯 Career guidance
+* 📄 Resume assistance
+* 💼 Placement preparation
+* 🎤 Interview preparation
+* 💡 Career-related questions
+* 🤖 AI-powered conversations
 
-        /* Main Hero Section */
-        .hero {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            min-height: 75vh;
-            padding: 2rem 5%;
-        }
+🛠️ Technologies Used
 
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: #0f172a;
-        }
+* HTML5
+* CSS3
+* JavaScript
+* Botpress
+* Botpress Webchat
 
-        .hero p {
-            font-size: 1.25rem;
-            color: #475569;
-            max-width: 600px;
-            margin-bottom: 2rem;
-        }
+📂 Project Structure
 
-        .cta-btn {
-            background-color: #2563eb;
-            color: white;
-            padding: 0.8rem 2rem;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-            transition: transform 0.2s, background-color 0.2s;
-        }
+Career-Compass-AI/
+│
+├── index.html
+├── README.md
+├── css/
+│   └── style.css
+└── assets/
+    └── images/
 
-        .cta-btn:hover {
-            background-color: #1d4ed8;
-            transform: translateY(-2px);
-        }
+🚀 How to Run
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background-color: #ffffff;
-            border-top: 1px solid #e2e8f0;
-            color: #94a3b8;
-            font-size: 0.9rem;
-        }
-    </style>
-</head>
-<body>
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+4. Click **Chat with Us** to open the Botpress chatbot.
 
-    <!-- Header Navigation -->
-    <header>
-        <div class="logo">Career Compass AI</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+🤖 Botpress Integration
 
-    <!-- Main Content -->
-    <main class="hero">
-        <h1>Your AI-Powered Career & Placement Assistant</h1>
-        <p>Get personalized interview preparation, resume assistance, and career guidance instantly.</p>
-        <button class="cta-btn" onclick="window.botpressWebChat.sendEvent({ type: 'show' })">Chat with Us</button>
-    </main>
+The website uses Botpress Webchat to provide the AI-powered career assistant.
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Career Compass AI. All rights reserved.</p>
-    </footer>
+The chatbot can be configured in Botpress to answer student questions related to:
 
-    <!-- Botpress Webchat Code -->
-    <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2026/02/23/03/20260223033206-IOV3Y1VP.js" defer></script>
+* Career options
+* Resume preparation
+* Interview preparation
+* Placement preparation
+* Skills development
 
-</body>
-</html>
+🎓 Purpose
+
+The purpose of Career Compass AI is to provide students with an easily accessible AI-based career and placement support system.
+
+
